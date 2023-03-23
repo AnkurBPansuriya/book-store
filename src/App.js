@@ -5,7 +5,7 @@ import Home from './Pages/Home'
 function App() {
   return (
     <div className="App">
-      <Greet name=" Ahmedabad'" >+</Greet>
+      <Greet name=" hmedabad'" >+</Greet>
       <Greet name=" Vadodara's" ></Greet>
       <Greet name=" Puna's" ></Greet>
       <Home name=" Ahmedabad"/>
