@@ -1,16 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
+// import List from './List'
 
-class Title extends Component {
-  render() {
-    return (<>
-      <div>
-      <h1>This is Title Page</h1>
-      <p>The city skyline glimmered in the distance, its towering 
-      skyscrapers casting long shadows across the streets below. 
-      People bustled to and fro, their hurried footsteps echoing off
-       the concrete walls.</p>
-       {/* <button>Click for About</button> */}
-      </div>
+function Title ({List}){
+  {
+    return (
+      <>
+        <div>
+          <h2>This is id {List.id},and  {List.title}, and {List.description}</h2>
+        </div>
       </>
     )
   }
