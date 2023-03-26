@@ -1,0 +1,50 @@
+.content {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.LogIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #827f7f;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.LogIn h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.LogIn label {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.LogIn input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.LogIn button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff2222;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+
+.LogIn button:hover {
+    background-color: #d90000;
+}
